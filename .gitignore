@@ -1,0 +1,14 @@
+*.iml
+
+*/target/*
+
+.idea/*
+.gradle/*
+*.class
+gradlew*
+gradle*
+*.log
+/logs
+settings.gradle
+build.gradle
+target*
