@@ -7,7 +7,7 @@ public class Context {
         this.strategy = strategy;
     }
 
-    public void takeStartegy() {
+    public void takeStrategy() {
         strategy.algorithm();
     }
 }
