@@ -1,4 +1,5 @@
 package com.itisacat.algo.patternDesigner.interpreter;
 
-public class Expression {
+public interface Expression {
+    boolean interpret(String info);
 }
