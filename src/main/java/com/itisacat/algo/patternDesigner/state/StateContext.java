@@ -1,6 +1,6 @@
 package com.itisacat.algo.patternDesigner.state;
 
-public class Context {
+public class StateContext {
     public static final RunState common = new CommonState();
     public static final RunState speedUp = new SpeedUpState();
     public static final RunState speedDown = new SpeedDownState();

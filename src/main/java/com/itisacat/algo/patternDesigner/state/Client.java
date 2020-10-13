@@ -2,10 +2,10 @@ package com.itisacat.algo.patternDesigner.state;
 
 public class Client {
     public static void main(String[] args) throws InterruptedException {
-        Context context = new Context();
+        StateContext context = new StateContext();
         context.startRun();
         Thread.sleep(2000);
-        context.setState(Context.speedUp);
+        context.setState(StateContext.speedUp);
         context.startRun();
         Thread.sleep(2000);
         context.startRun();
